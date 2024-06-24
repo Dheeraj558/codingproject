@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body><form action="register.jsp" method="post">
+    Name = <input type="text"placeholder="Enter Your Name"> <br>
+    Roll Number = <input type="number"placeholder="Enter Your Roll Number"><br>
+    Password = <input type="password"placeholder="Enter Unique Code"><br>
+    E-Mail = <input type="email"placeholder="xyz123@gmail.com"><br>
+    File = <input type="file"><br>
+    Color = <input type="color"><br>
+    Range = <input min="0" max="50" value="18" type="range"><br>
+    Number = <input min="0" value="18" max="60" type="number"> <br>
+    Gender = <input Gender="Male" type="radio">Male<input Gender="Female"type="radio">Female<br>
+    Reset = <input type="reset"value="Clear Page"><br>
+    Search = <input type="search" placeholder="search courses"><br>
+    Button = <input type="button"value="Click Me"> <br>
+
+    COURSES :-<BR>
+        <input type="checkbox" value="java">JAVA<br>
+        <input type="checkbox" value="C++">C++<br>
+        <input type="checkbox" value="HTML">HTML<br>
+        <input type="checkbox" value="PYTHON">PYTHON<br>
+        <input type="date"><br>
+        Select Courses:-<br>       
+    <select Courses>
+        <optgroup label="Programming">
+            <option selected>JAVA</option>
+            <option>C++</option>
+            <option disabled>PYTHON</option>
+            <option>C#</option>
+            <option>SWIFT</option>
+        </optgroup>
+        <optgroup label="DATABASE">
+            <OPTION>MY SQL</OPTION>
+            <option>MS SQL SERVER</option>
+            <option disabled>Oracle SQL</option>
+            <option>PostrgreSQL</option>
+            <option>MongoDB</option>
+        </optgroup>
+    </select><br>
+    <textarea placeholder="Write Your Feedback" cols="30" rows="15"></textarea>
+  </form>
+</body>
+</html>
